@@ -3,7 +3,7 @@ from scipy.spatial.distance import cosine
 from sqlalchemy import create_engine, Table, MetaData
 from flask import Flask, jsonify, make_response, request
 
-
+#pranjal forked this
 # Setup
 app = Flask(__name__, static_url_path='') # For the API
 engine = create_engine('postgresql:///testdb') # Connect to the DB
